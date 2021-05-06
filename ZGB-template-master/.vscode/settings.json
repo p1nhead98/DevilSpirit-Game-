@@ -1,0 +1,13 @@
+{
+  "files.associations": {
+    "player_air_attack.h": "c",
+    "pairattack.h": "c",
+    "sky1.h": "c",
+    "window.h": "c",
+    "sky2.h": "c",
+    "misc.h": "c",
+    "towntiles.h": "c",
+    "tileschange.h": "c",
+    "font.h": "c"
+  }
+}
