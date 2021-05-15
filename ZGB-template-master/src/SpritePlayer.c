@@ -27,7 +27,7 @@ const UINT8 human_death[] = {4, 11, 12, 13, 13};
 ////////////////////////////////////////////////////////////////////////
 
 ///////////////// FORM 1 ANIMATIONS ////////////////////////////////////
-const UINT8 form1_idle[] = {1, 0};
+const UINT8 form1_idle[] = {1, 14};
 const UINT8 form1_walk[] = {4, 2, 4, 2, 0};
 const UINT8 form1_jumping[] = {1, 6};
 const UINT8 form1_attack[] = {8, 8, 10, 8, 10, 8, 10, 8, 10};
@@ -287,14 +287,14 @@ void Update_SpritePlayer()
         transformation = 1;
         THIS->size = FRAME_32x16;
         canTransform = FALSE;
-        SpriteSetTiles(&form1, 0, 59);
+        SpriteSetTiles(&form1, 0, 67);
       }
       else if (transf1 && !canTransform)
       {
         transformation = 0;
         THIS->size = FRAME_16x16;
         canTransform = TRUE;
-        SpriteSetTiles(&player, 0, 59);
+        SpriteSetTiles(&player, 0, 67);
       }
     }
 
